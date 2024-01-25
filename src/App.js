@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
-import MainContainer from './Components/MainContainer';
+import React from "react";
+
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-    
-    <MainContainer/>  
+      <NavBar></NavBar>
     </div>
   );
 }
